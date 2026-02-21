@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.top {
+    background-color: black;
+    background-size: cover;
+    color: white;
+    width: 100%;
+    height: 38px;
+    background-repeat: no-repeat;
+}
+
+.top p {
+    padding-top: 10px;
+    font-style: normal;
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.link {
+    color: white;
+}
+
+.top-menu {
+    margin: 0px 50px 0px 50px;
+}
+
+.navbar-brand {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 30px;
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.d-flex i {
+    margin: 10px;
+}
+
+input.form-control {
+    padding: 6px 10rem;
+
+}
+
+button.btn {
+    padding: 0%;
+}
+
+.find-cloths {
+    background-color: rgb(241, 239, 238);
+    height: 31rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.find-cloths h2 {
+    padding: 64px 0 0 96px;
+    font-weight: 700;
+    font-size: 64px;
+    font-style: bold;
+    line-height: 64px;
+    letter-spacing: 0%;
+}
+
+.find-cloths p {
+    padding-left: 96px;
+    color: rgb(178, 179, 180);
+    font-size: 16px;
+}
+
+.find-cloths a {
+    margin-left: 100px;
+    border-radius: 50px;
+    width: 150px;
+}
+
+.international {
+    display: flex;
+}
+
+.find-cloths h3 {
+    padding: 14px 0 0 96px;
+    font-weight: 700;
+    font-size: 34px;
+    font-style: bold;
+    margin: 0;
+    letter-spacing: 0%;
+}
+
+.find-cloths p1 {
+    padding-left: 15px;
+    color: rgb(178, 179, 180);
+    font-size: 14px;
+}
+
+.international p {
+    color: rgb(178, 179, 180);
+    font-size: 14px;
+}
+
+.international h3 {
+    padding-left: 15px;
+}
+
+.inter h3 {
+    padding-left: 96px;
+}
+
+.find-cloths img {
+    width: 500px;
+    height: 497px;
+}
+
+.brands {
+    background-color: black;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.brands img {
+    width: 175px;
+    padding: 10px 36px;
+    margin-left: 50px;
+}
+
+.new h2 {
+    text-align: center;
+    padding-top: 30px;
+    font-weight: 700;
+    font-style: bold;
+    font-size: 34px;
+}
+
+.stars {
+    background: linear-gradient(#d4af37, #ffd700, #b8860b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.box {
+    border-bottom: 1px solid rgb(205, 203, 203);
+    height: 27rem;
+    margin: 15px 96px;
+}
+
+.box1 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.rank {
+    display: flex;
+}
+
+.rank p {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.box1 img {
+    width: 230px;
+}
+
+.box p4 {
+    color: rgb(205, 205, 206);
+    margin-left: 5px;
+}
+
+.view-btn {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.view-all-btn {
+    padding: 5px 40px;
+    border: 2px solid #dcdcdc;
+    background: transparent;
+    color: #333;
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.view-all-btn:hover {
+    border-color: #000;
+}
+
+.box2 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.box2 img {
+    width: 230px;
+}
+
+.dress-style {
+    background-color: rgba(240, 240, 240, 1);
+    border-bottom: 1px solid rgb(205, 203, 203);
+    height: 37rem;
+    margin: 15px 96px;
+    padding: 50px 0;
+    border-radius: 20px;
+}
+
+.dress-style h2 {
+    text-align: center;
+    font-weight: 700;
+    font-style: bold;
+    font-size: 34px;
+}
+
+.sml1 {
+    width: 350px;
+    height: 200px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.large-box {
+    margin: 30px 130px;
+}
+
+.large-box h3 {
+    padding: 10px;
+    font-weight: bold;
+}
+
+.sml1 img {
+    width: 150px;
+    height: 200px;
+}
+
+.lrg1 {
+    width: 500px;
+    height: 200px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.dress-box1 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+.our {
+    height: 21rem;
+    margin: 15px 96px;
+    padding: 50px 0;
+    border-radius: 20px;
+}
+
+.our h2 {
+    font-weight: 700;
+    font-style: bold;
+    font-size: 34px;
+}
+
+.card1 {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card h6 {
+    font-size: 15px;
+}
+
+.card p {
+    font-size: 10px;
+    color: #868585;
+}
+.stay {
+    background-color: rgb(7, 7, 7);
+    border-bottom: 1px solid rgb(205, 203, 203);
+    height: 7rem;
+    padding: 17px 45px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.stay h2 {
+    color: white;
+    font-weight: bold;
+}
+.bottom {
+    background-color: rgb(241, 239, 238);
+    height: 31rem;
+    padding: 8rem 6rem;
+}
+.logo h2{
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.bottom p1 {
+    font-size: 15px;
+    color: #868585;
+}
