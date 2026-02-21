@@ -292,15 +292,22 @@ button.btn {
     border-radius: 20px;
     display: flex;
     justify-content: space-between;
+    position: relative;
 }
 .stay h2 {
     color: white;
     font-weight: bold;
 }
-.bottom {
+.bottom1 {
     background-color: rgb(241, 239, 238);
-    height: 31rem;
-    padding: 8rem 6rem;
+    height: 28rem;
+}
+.bottom {
+    
+    padding: 8rem 6rem 0;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid rgb(205, 203, 203);
 }
 .logo h2{
     font-size: 2.5rem;
@@ -311,4 +318,30 @@ button.btn {
 .bottom p1 {
     font-size: 15px;
     color: #868585;
+}
+.logo a {
+    margin-top: 15px;
+}
+.company a {
+    text-decoration: none;
+    color: #868585;
+}
+.company ul {
+    font-size: 18px;
+    margin-top: 16px;
+    padding: 0;
+}
+.company ul a:hover {
+    color: #343434;
+}
+.payment {
+    padding: 1rem 6rem;
+    display: flex;
+    justify-content: space-between;
+}
+.payment a {
+    text-decoration: none;
+}
+.all {
+    padding-top: 10px;
 }
