@@ -116,15 +116,30 @@ button.btn {
 
 .brands {
     background-color: black;
-    height: 70px;
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.brand1 {
     display: flex;
     justify-content: space-around;
 }
 
-.brands img {
-    width: 175px;
-    padding: 10px 36px;
-    margin-left: 50px;
+.brand1 img {
+    width: 200px;
+    padding: 10px 46px;
+}
+
+.brand2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.brand2 img {
+    width: 250px;
+    padding: 10px 46px;
 }
 
 .new h2 {
@@ -144,14 +159,20 @@ button.btn {
 
 .box {
     border-bottom: 1px solid rgb(205, 203, 203);
-    height: 27rem;
-    margin: 15px 96px;
+    height: auto;
+    margin: 15px 0;
 }
 
 .box1 {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding-top: 20px;
+}
+
+.boxx {
+    gap: 140px;
+    display: flex;
+    justify-content: space-around;
 }
 
 .rank {
@@ -174,7 +195,7 @@ button.btn {
 
 .view-btn {
     text-align: center;
-    margin-top: 30px;
+    margin: 30px 0;
 }
 
 .view-all-btn {
@@ -195,7 +216,7 @@ button.btn {
 
 .box2 {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding-top: 20px;
 }
 
@@ -206,7 +227,7 @@ button.btn {
 .dress-style {
     background-color: rgba(240, 240, 240, 1);
     border-bottom: 1px solid rgb(205, 203, 203);
-    height: 37rem;
+    height: auto;
     margin: 15px 96px;
     padding: 50px 0;
     border-radius: 20px;
@@ -229,7 +250,7 @@ button.btn {
 }
 
 .large-box {
-    margin: 30px 130px;
+    justify-content: center;
 }
 
 .large-box h3 {
@@ -284,64 +305,169 @@ button.btn {
     font-size: 10px;
     color: #868585;
 }
+
 .stay {
     background-color: rgb(7, 7, 7);
     border-bottom: 1px solid rgb(205, 203, 203);
-    height: 7rem;
+    height: auto;
     padding: 17px 45px;
     border-radius: 20px;
     display: flex;
     justify-content: space-between;
     position: relative;
 }
+
 .stay h2 {
     color: white;
     font-weight: bold;
 }
+
 .bottom1 {
     background-color: rgb(241, 239, 238);
-    height: 28rem;
+    height: auto;
 }
+
 .bottom {
-    
     padding: 8rem 6rem 0;
     display: flex;
     justify-content: space-between;
     border-bottom: 2px solid rgb(205, 203, 203);
 }
-.logo h2{
+
+.logo h2 {
     font-size: 2.5rem;
     font-weight: bold;
     margin-bottom: 25px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+
 .bottom p1 {
     font-size: 15px;
     color: #868585;
 }
+
 .logo a {
     margin-top: 15px;
 }
+
 .company a {
     text-decoration: none;
     color: #868585;
 }
+
 .company ul {
     font-size: 18px;
     margin-top: 16px;
     padding: 0;
 }
+
 .company ul a:hover {
     color: #343434;
 }
+
 .payment {
     padding: 1rem 6rem;
     display: flex;
     justify-content: space-between;
 }
+
 .payment a {
     text-decoration: none;
 }
+
 .all {
     padding-top: 10px;
+}
+
+@media (max-width: 768px) {
+    .find-cloths {
+        display: inline;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .find-cloths h2 {
+        padding: 0;
+    }
+
+    .find-cloths p {
+        padding: 0;
+    }
+
+    .find-cloths a {
+        margin: 0;
+        width: 70%;
+    }
+
+    .find-cloths img {
+        width: 100%;
+        height: auto;
+    }
+
+    .international {
+        justify-content: space-evenly;
+    }
+
+    .brands {
+        display: inline-block;
+    }
+
+    .box1 {
+        display: inline;
+        justify-content: space-between;
+    }
+
+    .boxx {
+        gap: 5px;
+        margin: 10px 0;
+    }
+
+    .box2 {
+        display: inline;
+        justify-content: space-between;
+    }
+
+    .view-all-btn {
+        width: 80%;
+    }
+
+    .dress-style {
+        margin: 20px;
+    }
+    .dress-box1 {
+        display: inline;
+        justify-items: center;
+        margin: 0;
+        
+    }
+    .sml1 {
+        width: 500px;
+        height: 200px;
+        background-color: white;
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 20px;
+    }
+    .large-box {
+        display: grid;
+    }
+    .lrg1 {
+        margin-bottom: 20px;
+    }
+    .card1 {
+        display: grid;
+    }
+    .card2 {
+        display: none;
+    }
+    .stay {
+        display: inline-block;
+    }
+    .bottom {
+        margin-top: 60px;
+        display: inline-block;
+    }
+    
 }
