@@ -355,6 +355,11 @@ button.btn {
     color: #868585;
 }
 
+.comp1 {
+    display: flex;
+    gap: 100px;
+}
+
 .company ul {
     font-size: 18px;
     margin-top: 16px;
@@ -435,12 +440,14 @@ button.btn {
     .dress-style {
         margin: 20px;
     }
+
     .dress-box1 {
         display: inline;
         justify-items: center;
         margin: 0;
-        
+
     }
+
     .sml1 {
         width: 500px;
         height: 200px;
@@ -450,24 +457,120 @@ button.btn {
         justify-content: space-around;
         margin-bottom: 20px;
     }
+
     .large-box {
         display: grid;
     }
+
     .lrg1 {
         margin-bottom: 20px;
     }
+
     .card1 {
         display: grid;
     }
+
     .card2 {
         display: none;
     }
+
     .stay {
         display: inline-block;
     }
+
+    .bottom1 {
+        margin-top: 150px;
+    }
+
     .bottom {
-        margin-top: 60px;
+        margin-top: 80px;
         display: inline-block;
     }
-    
+
+    .logo {
+        text-align: center;
+
+    }
+
+    .logo .d-flex {
+        padding-left: 110px;
+    }
+
+    .comp1 {
+        padding-top: 50px;
+        justify-content: center;
+    }
+
+    .payment {
+        display: inline;
+        text-align: center;
+    }
+
+    .all {
+        padding-bottom: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+    .find-cloths h2 {
+        padding: 0;
+        text-align: center;
+        font-size: 44px;
+        line-height: 44px;
+    }
+
+    .find-cloths p1 {
+        padding-left: 0;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .find-cloths p {
+        font-size: 12px;
+    }
+
+    .brand1 img {
+        width: 160px;
+    }
+
+    .brand2 img {
+        width: 190px;
+    }
+
+    .sml1 {
+        width: 350px;
+    }
+
+    .lrg1 {
+        width: 350px;
+    }
+
+    .our h2 {
+        font-size: 22px;
+        padding-left: 80px;
+    }
+    .our {
+        margin: 0;
+        
+    }
+    .stay {
+        width: 80%;
+        margin-left: 50px;
+        display: inline-block;
+    }
+    .stay h2 {
+        padding: 0;
+    }
+    .bottom {
+        margin: 0;
+    }
+    .bottom1 {
+        margin-top: 35px;
+    }
+    .logo .d-flex {
+        padding-left: 70px;
+    }
+    .comp1 {
+        gap: 80px;
+    }
 }
