@@ -170,7 +170,7 @@ button.btn {
 }
 
 .boxx {
-    gap: 140px;
+    gap: 70px;
     display: flex;
     justify-content: space-around;
 }
@@ -185,7 +185,7 @@ button.btn {
 }
 
 .box1 img {
-    width: 230px;
+    width: auto;
 }
 
 .box p4 {
@@ -221,7 +221,7 @@ button.btn {
 }
 
 .box2 img {
-    width: 230px;
+    width: auto;
 }
 
 .dress-style {
@@ -414,13 +414,30 @@ button.btn {
         justify-content: space-evenly;
     }
 
+    .international h3 {
+        padding: 0;
+    }
+
     .brands {
         display: inline-block;
     }
 
+
     .box1 {
         display: inline;
         justify-content: space-between;
+    }
+
+    .boxx img {
+        width: 170px;
+    }
+
+    .boxx p1,
+    p,
+    p3,
+    p4,
+    span {
+        font-size: 13px;
     }
 
     .boxx {
@@ -549,27 +566,34 @@ button.btn {
         font-size: 22px;
         padding-left: 80px;
     }
+
     .our {
         margin: 0;
-        
+
     }
+
     .stay {
         width: 80%;
         margin-left: 50px;
         display: inline-block;
     }
+
     .stay h2 {
         padding: 0;
     }
+
     .bottom {
         margin: 0;
     }
+
     .bottom1 {
         margin-top: 35px;
     }
+
     .logo .d-flex {
         padding-left: 70px;
     }
+
     .comp1 {
         gap: 80px;
     }
