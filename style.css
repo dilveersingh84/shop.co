@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
 .top {
     background-color: black;
     background-size: cover;
@@ -24,7 +31,7 @@
 }
 
 .top-menu {
-    margin: 0px 50px 0px 50px;
+    margin: 0 5%; 
 }
 
 .navbar-brand {
@@ -51,6 +58,8 @@ button.btn {
 
 .find-cloths {
     background-color: rgb(241, 239, 238);
+    max-width: 100%;
+    overflow-x: hidden;
     height: 31rem;
     display: flex;
     justify-content: space-around;
@@ -549,6 +558,7 @@ button.btn {
 
     .brand1 img {
         width: 160px;
+        overflow: hidden;
     }
 
     .brand2 img {
@@ -597,5 +607,19 @@ button.btn {
 
     .comp1 {
         gap: 80px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .top-menu {
+        margin: 0 2%;
+    }
+    .find-cloths h2 {
+        font-size: 32px;
+        padding: 32px 0 0 48px;
+    }
+    .find-cloths p {
+        padding-left: 48px;
     }
 }
