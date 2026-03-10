@@ -536,6 +536,7 @@ button.btn {
     .all {
         padding-bottom: 20px;
     }
+    
 }
 
 @media (max-width: 600px) {
@@ -595,6 +596,7 @@ button.btn {
 
     .bottom {
         margin: 0;
+        padding: 150px 0 0 0;
     }
 
     .bottom1 {
@@ -602,7 +604,7 @@ button.btn {
     }
 
     .logo .d-flex {
-        padding-left: 70px;
+        padding-left: 120px;
     }
 
     .comp1 {
