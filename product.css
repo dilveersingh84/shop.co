@@ -56,6 +56,7 @@ input.form-control {
 button.btn {
     padding: 0%;
 }
+
 .topp {
     width: 84%;
     height: auto;
@@ -64,33 +65,40 @@ button.btn {
     justify-content: space-around;
     gap: 20px;
 }
+
 .section {
     display: flex;
 }
+
 .small-img img {
     width: 150px;
     height: auto;
     padding-bottom: 10px;
     border-radius: 15%;
 }
+
 .small-img img:hover {
     transform: scale(1.1);
-    box-shadow: 0px 4px 15px rgba(0,0,0,0.3);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
     cursor: pointer;
     border: 1px solid black;
 }
+
 .large-img img {
     border-radius: 5%;
 }
+
 .large-img img:hover {
-    transform: scale(1.1);
-    box-shadow: 0px 4px 15px rgba(0,0,0,0.3);
+    transform: scale(1.0);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
     cursor: pointer;
     border: 1px solid black;
 }
+
 .top-text {
     padding-top: 40px;
 }
+
 .rank {
     display: flex;
 }
@@ -99,23 +107,29 @@ button.btn {
     font-size: large;
     font-weight: bold;
 }
+
 .stars {
     background: linear-gradient(#d4af37, #ffd700, #b8860b);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: large;
 }
-p , p4{
+
+p,
+p4 {
     color: rgb(205, 205, 206);
 }
+
 .btn {
     width: 100px;
     height: auto;
 }
+
 .sub-section {
     display: flex;
     justify-content: space-between;
 }
+
 .qty-box {
     background: #f1f1f1;
     border-radius: 40px;
@@ -136,6 +150,7 @@ p , p4{
     min-width: 20px;
     text-align: center;
 }
+
 .view {
     width: 75%;
     border-radius: 40px;
@@ -143,17 +158,347 @@ p , p4{
     color: white;
 }
 
-.filter-icon{
-width:120px;
-height:120px;
-background:#eee;
-border-radius:10%;
-display:flex;
-justify-content:center;
-align-items:center;
+.review {
+    width: 84%;
+    height: 91.5rem;
+    margin: 20px 8%;
 }
 
-.filter-icon i{
-font-size:40px;
-color:black;
+.sub-review {
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+}
+
+.sub-review p {
+    width: 33.3%;
+    border-bottom: 2px solid rgb(177, 173, 173);
+    text-align: center;
+}
+
+.card {
+    width: 39rem;
+    height: auto;
+}
+
+.sub-review p2 {
+    width: 33.3%;
+    border-bottom: 3px solid rgb(15, 14, 14);
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.sub-review1 {
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+}
+
+.sub-sub-review1 {
+    display: flex;
+    gap: 10px;
+}
+
+.filter-icon {
+    width: 50px;
+    height: auto;
+    background: #eee;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.filter-icon i {
+    font-size: 15px;
+    color: black;
+}
+
+.btn1 {
+    width: 150px;
+    height: auto;
+    background: #eee;
+    border-radius: 40px;
+    font-size: 15px;
+    border: none;
+}
+
+.view {
+    font-size: 15px;
+}
+
+.review-cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.view-btn {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.view-all-btn {
+    padding: 7px 40px;
+    border: 2px solid #dcdcdc;
+    background: transparent;
+    color: #333;
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.view-all-btn:hover {
+    border-color: #000;
+}
+
+.new h2 {
+    text-align: center;
+    font-weight: 900;
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.box2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.sub-box:hover {
+    transform: scale(1.0);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.boxx {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.stay {
+    background-color: rgb(7, 7, 7);
+    border-bottom: 1px solid rgb(205, 203, 203);
+    height: auto;
+    padding: 17px 45px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 50px;
+}
+
+.stay h2 {
+    color: white;
+    font-weight: bold;
+}
+
+.bottom1 {
+    background-color: rgb(241, 239, 238);
+    height: auto;
+}
+
+.bottom {
+    padding: 8rem 6rem 0;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid rgb(205, 203, 203);
+}
+
+.logo h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.bottom p1 {
+    font-size: 15px;
+    color: #868585;
+}
+
+.logo a {
+    margin-top: 15px;
+}
+
+.company a {
+    text-decoration: none;
+    color: #868585;
+}
+
+.comp1 {
+    display: flex;
+    gap: 100px;
+}
+
+.company ul {
+    font-size: 18px;
+    margin-top: 16px;
+    padding: 0;
+}
+
+.company ul a:hover {
+    color: #343434;
+}
+
+.payment {
+    padding: 1rem 6rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.payment a {
+    text-decoration: none;
+}
+
+.all {
+    padding-top: 10px;
+}
+
+@media (max-width: 768px) {
+    .topp {
+        display: inline;
+        width: 80%;
+        height: auto;
+        margin: 0 10%;
+    }
+
+    .section {
+        width: 80%;
+        margin: 0 10%;
+        gap: 25px;
+    }
+
+    .small-img {
+        display: grid;
+    }
+
+    .top-text {
+        width: 80%;
+        margin: 0 10%;
+    }
+
+    .btn1 {
+        display: none;
+    }
+
+    p,
+    p2 {
+        font-size: 20px;
+    }
+
+    .sub-review1 {
+        margin-bottom: 20px;
+    }
+
+    .review-cards {
+        display: inline;
+    }
+
+    .card1 {
+        display: none;
+    }
+
+    .box2 {
+        display: inline;
+    }
+
+    .boxx {
+        margin-bottom: 20px;
+    }
+
+    .review {
+        height: 123.5rem;
+    }
+
+    .input-group {
+        height: 2rem;
+    }
+
+    .sub-stay {
+        padding: 30px 0;
+    }
+
+    .bottom {
+        display: block;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .logo .d-flex {
+        padding-left: 190px;
+    }
+
+    .comp1 {
+        display: inline-flex;
+        margin-top: 30px;
+    }
+
+    .payment {
+        display: inline-block;
+        align-items: center;
+        padding: 0 0 0 14rem;
+        text-align: center;
+    }
+}
+
+@media (max-width: 600px) {
+    .topp {
+        width: 80%;
+    }
+
+    .section {
+        display: inline;
+    }
+
+    .small-img {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .small-img img {
+        width: 180px;
+    }
+
+    .large-img {
+        margin: 0 10px;
+    }
+
+    .large-img img {
+        width: 580px;
+    }
+
+    p,
+    p2 {
+        font-size: 15px;
+    }
+
+    h4,
+    p4 {
+        font-size: 15px;
+    }
+
+    .card {
+        width: 31.5rem;
+        height: auto;
+    }
+    .sub-box img {
+        width: 250px;
+    }
+    .stay {
+        display: inline-block;
+    }
+    .review {
+        height: 112rem;
+    }
+    .logo .d-flex {
+        padding-left: 115px;
+    }
+    .payment {
+        padding: 0 0 0 9rem;
+    }
 }
