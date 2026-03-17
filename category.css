@@ -33,6 +33,7 @@
 
 .top-menu {
     margin: 0 5%;
+    height: 101rem;
 }
 
 .navbar-brand {
@@ -64,8 +65,9 @@ hr {
 
 .filter {
     width: 20%;
-    height: auto;
-    border: 1px solid rgb(157, 156, 154);;
+    height: 65rem;
+    border: 1px solid rgb(157, 156, 154);
+    ;
     border-radius: 20px;
 }
 
@@ -78,6 +80,7 @@ hr {
     display: flex;
     justify-content: space-between;
 }
+
 .filter-icon {
     padding: 10px 0 0 90px;
     color: rgb(157, 156, 154);
@@ -125,6 +128,7 @@ p {
 .bi-chevron-right {
     color: rgb(157, 156, 154);
 }
+
 .view {
     width: 100%;
     height: 40px;
@@ -133,29 +137,203 @@ p {
     color: white;
     font-size: 15px;
 }
+
 .sub-main {
     display: flex;
 }
+
 .casual {
-    width: 100%;
+    width: 90%;
+    margin-left: 10px;
 }
+
 .sub-casual {
     width: 98%;
     height: auto;
     padding: 0 1%;
 }
+
 .casual1 {
     display: flex;
     justify-content: space-between;
 }
+
 .casual h5 {
     font-size: 30px;
 }
+
 .sub-casual1 {
     display: flex;
 }
+
 .box1 {
     display: flex;
     justify-content: space-between;
     padding-top: 20px;
+}
+
+.box {
+    margin-left: 40px;
+}
+.box:hover , .sub-box1:hover , .boxx:hover , .bbox:hover {
+    transform: scale(1.0);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.stars {
+    background: linear-gradient(#d4af37, #ffd700, #b8860b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.btn1 {
+    width: 30px;
+    height: auto;
+    border-radius: 5px;
+    border: none;
+    background: none;
+}
+
+.btn1:hover {
+    background-color: rgb(115, 114, 114);
+    color: white;
+}
+
+.preview {
+    display: flex;
+    justify-content: space-between;
+}
+
+.stay {
+    background-color: rgb(7, 7, 7);
+    border-bottom: 1px solid rgb(205, 203, 203);
+    height: auto;
+    padding: 17px 45px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 50px;
+}
+
+.stay h2 {
+    color: white;
+    font-weight: bold;
+}
+
+.bottom1 {
+    background-color: rgb(241, 239, 238);
+    height: auto;
+}
+
+.bottom {
+    padding: 8rem 6rem 0;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid rgb(205, 203, 203);
+}
+
+.logo h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.bottom p1 {
+    font-size: 15px;
+    color: #868585;
+}
+
+.logo a {
+    margin-top: 15px;
+}
+
+.company a {
+    text-decoration: none;
+    color: #868585;
+}
+
+.comp1 {
+    display: flex;
+    gap: 100px;
+}
+
+.company ul {
+    font-size: 18px;
+    margin-top: 16px;
+    padding: 0;
+}
+
+.company ul a:hover {
+    color: #343434;
+}
+
+.payment {
+    padding: 1rem 6rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.payment a {
+    text-decoration: none;
+}
+
+.all {
+    padding-top: 10px;
+}
+
+@media (max-width: 768px) {
+    .filter {
+        display: none;
+    }
+    .casual {
+    width: 100%;
+    margin-left: 10px;
+}
+    .sub-casual {
+        width: 100%;
+        height: auto;
+        padding: 0;
+    }
+
+    .box , .bbox {
+        margin-left: 60px;
+    }
+
+    .boxx {
+        display: none;
+    }
+
+    .input-group {
+        height: 2rem;
+    }
+
+    .sub-stay {
+        padding: 30px 0;
+    }
+
+    .bottom {
+        display: block;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .logo .d-flex {
+        padding-left: 190px;
+    }
+
+    .comp1 {
+        display: inline-flex;
+        margin-top: 30px;
+    }
+
+    .payment {
+        display: inline-block;
+        align-items: center;
+        padding: 0 0 0 14rem;
+        text-align: center;
+    }
 }
